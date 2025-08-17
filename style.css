@@ -2,7 +2,7 @@
 
 :root {
     --cor-destaque: #1d04fc;
-    --cor-gradiente-preto: linear-gradient(113deg, #002fff 0%, #9dff00 44.96%, #00ccff 100%);
+    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #9dff00 44.96%, #00ccff 100%);
 }
 
 * {
@@ -67,7 +67,7 @@ h1 {
     border-radius: 0.5rem;
     border: none;
     background: var(--cor-destaque);
-    color:#b4002d;
+    color: #b4002d;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: normal;
