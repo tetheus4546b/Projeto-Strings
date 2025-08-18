@@ -1,13 +1,13 @@
-const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
+const botaoRevelarPalavras = document.querySelector('#botao-palavrachave');
 
 botaoMostraPalavras.addEventListener('click', revelar-palavrachave);
 
 function revelar-palavrachave() {
-    const texto = document.querySelector('#entrada-de-texto').value;
-    const campoResultado = document.querySelector('#resultado-palavrachave');
-    const palavrasChave = processamento-dos-textos(texto);
+    const textoDigitado = document.querySelector('#entrada-de-texto').value;
+    const Resultadofinal = document.querySelector('#resultado-palavrachave');
+    const palavrasCertas = processamento-dos-textos(texto);
 
-    campoResultado.textContent = palavrasChave.join(", ");
+    Resultadofinal.textContent = palavrasChave.join(", ");
 }
 
 function processamento-dos-textos(texto) {
