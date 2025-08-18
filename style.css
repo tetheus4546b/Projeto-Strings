@@ -58,7 +58,7 @@ h1 {
     line-height: normal;
 }
 
-#botaoRevelarPalavras {
+#botao-revelarPalavras {
     display: flex;
     padding: 1.25rem;
     justify-content: center;
