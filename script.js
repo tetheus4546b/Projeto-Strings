@@ -11,6 +11,6 @@ function revelar-palavrachave() {
 }
 
 function processamento-dos-textos(texto) {
-    let palavrasChave = texto.split(/\P{L}+/u);
+    let palavrasChave = textoDigitado.split(/\P{L}+/u);
     return palavrasChave;
 }
