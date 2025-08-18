@@ -7,7 +7,7 @@ function revelar-palavrachave() {
     const Resultadofinal = document.querySelector('#resultado-palavrachave');
     const palavrasCertas = processamento-dos-textos(texto);
 
-    Resultadofinal.textContent = palavrasChave.join(", ");
+    Resultadofinal.textContent = palavrasCertas.join(", ");
 }
 
 function processamento-dos-textos(texto) {
