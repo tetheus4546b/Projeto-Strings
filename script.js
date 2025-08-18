@@ -1,8 +1,8 @@
 const botaoRevelarPalavras = document.querySelector('#botao-palavrachave');
 
-botaoRevelarPalavras.addEventListener('click', reveladorDePalavrachave);
+botaoMostraPalavras.addEventListener('click', mostraPalavrasChave);
 
-function MostrarPalavrasChave() {
+function mostraPalavrasChave() {
     const textoDigitado = document.querySelector('#entrada-de-texto').value;
     const Resultadofinal = document.querySelector('#resultado-palavrachave');
     const palavrasCertas = processamentoDosTextos(texto);
