@@ -5,12 +5,12 @@ botaoRevelarPalavras.addEventListener('click', reveladorDePalavrachave);
 function reveladorDePalavrachave() {
     const textoDigitado = document.querySelector('#entrada-de-texto').value;
     const Resultadofinal = document.querySelector('#resultado-palavrachave');
-    const palavrasCertas = processamento-dos-textos(textoDigitado);
+    const palavrasCertas = processamentoDosTextos(textoDigitado);
 
     Resultadofinal.textContent = palavrasCertas.join(", ");
 }
 
-function processamento-dos-textos(textoDigitado) {
+function processamentoDosTextos(textoDigitado) {
     let palavrasChave = textoDigitado.split(/\P{L}+/u);
     return palavrasChave;
 }
