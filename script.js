@@ -3,9 +3,9 @@ const botaoRevelarPalavras = document.querySelector('#botao-palavrachave');
 botaoRevelarPalavras.addEventListener('click', indicarPalavrasChave);
 
 function indicarPalavrasChave() {
-    const texto = document.querySelector('#entrada-de-texto').value;
+    const Refomular = document.querySelector('#entrada-de-texto').value;
     const areaResultado = document.querySelector('#resultado-palavrachave');
-    const palavrasCerta =  RecebendoTexto(texto);
+    const palavrasCerta =  RecebendoTexto(Refomular);
 
     areaResultado.textContent = palavrasCerta.join(", ");
 }
