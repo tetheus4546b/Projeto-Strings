@@ -11,6 +11,6 @@ function RevelarTodasPalavrasChave() {
 }
 
 function processamentoDoTexto(identificaçãotexto) {
-    let palavrasChave = texto.split(/\P{L}+/u);
-    return palavrasChave;
+    let palavras = texto.split(/\P{L}+/u);
+    return palavras;
 }
