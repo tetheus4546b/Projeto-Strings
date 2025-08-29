@@ -11,6 +11,6 @@ function mostraPalavrasChave() {
 }
 
 function RecebendoTexto(escrita) {
-    let palavras = texto.split(/\P{L}+/u);
+    let palavras = escrita.split(/\P{L}+/u);
     return palavras;
 }
