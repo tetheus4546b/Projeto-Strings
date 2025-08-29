@@ -3,14 +3,14 @@ const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
 botaoMostraPalavras.addEventListener('click', mostraPalavrasChave);
 
 function mostraPalavrasChave() {
-    const texto = document.querySelector('#entrada-de-texto').value;
-    const campoResultado = document.querySelector('#resultado-palavrachave');
-    const palavrasCerta = processaTexto(texto);
+    const escrita = document.querySelector('#entrada-de-texto').value;
+    const areaResultado = document.querySelector('#resultado-palavrachave');
+    const palavrasCerta =  RecebendoTexto(escrita);
 
-    campoResultado.textContent = palavrasCerta.join(", ");
+    areaResultado.textContent = palavrasCerta.join(", ");
 }
 
-function processaTexto(texto) {
+function RecebendoTexto(escrita) {
     let palavras = texto.split(/\P{L}+/u);
     return palavras;
 }
